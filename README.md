@@ -6,8 +6,7 @@ Write here the instructions for which file to load into the database and the URL
 
 ### Create Table
 
-CREATE TABLE `airlinedatadb`.`flights` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+Fields:
   `FL_DATE` DATE NULL,
   `UNIQUE_CARRIER` VARCHAR(45) NULL,
   `AIRLINE_ID` VARCHAR(45) NULL,
@@ -30,8 +29,7 @@ CREATE TABLE `airlinedatadb`.`flights` (
   `WEATHER_DELAY` INT NULL,
   `NAS_DELAY` INT NULL,
   `SECURITY_DELAY` INT NULL,
-  `LATE_AIRCRAFT_DELAY` INT NULL,
-  PRIMARY KEY (`id`));
+  `LATE_AIRCRAFT_DELAY` INT NULL
 
 # Loading the data
 
