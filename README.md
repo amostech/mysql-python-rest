@@ -48,4 +48,9 @@ CREATE TABLE `airlinedatadb`.`flights` (
 
 ## REST API
 
-    
+    python api.py &> api.log &
+
+## Run Jmeter 
+
+    jmeter -n –t jmeter-api.jmx -l testresults.jtl
+
