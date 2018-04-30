@@ -8,7 +8,7 @@ mysql = MySQL()
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'admin'
 app.config['MYSQL_DATABASE_DB'] = 'airlinedatadb'
-app.config['MYSQL_DATABASE_HOST'] = 'ec2-18-236-97-154.us-west-2.compute.amazonaws.com'
+app.config['MYSQL_DATABASE_HOST'] = '54.201.46.255'
 
 mysql.init_app(app)
 
