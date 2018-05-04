@@ -54,7 +54,7 @@ CREATE TABLE airlinedatadb.flights (
 
 # Task #1 - SQL Query
 
-    Answer the question: Return the count of flights that were delayed by more than 30 minutes per carrier.
+    Answer the question: Return the number of flights that were delayed by more than 30 minutes per carrier.
     
 
 # Task #2 - Rest API
