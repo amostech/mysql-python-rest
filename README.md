@@ -47,7 +47,7 @@ CREATE TABLE airlinedatadb.flights (
     Answer the question: Return the count of flights that were delayed by more than 30 minutes per carrier.
     
 
-# Task #2 - SQL Query
+# Task #2 - Rest API
 
     python api.py &> api.log &
 
