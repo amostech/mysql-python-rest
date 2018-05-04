@@ -2,7 +2,8 @@
 
 ## Database loading
 
-Database Information:  
+**Database Information:**  
+  
 Name: AirlineData  
 Description: On-time Flight Data for all flights in the United States from the Bureau of Transportation Statistics.  
 Time Range: Jan 01, 2018 - Feb 28, 2018  
