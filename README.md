@@ -42,16 +42,20 @@ CREATE TABLE airlinedatadb.flights (
     LOAD DATA LOCAL INFILE "AirlineData.csv" INTO TABLE flights FIELDS TERMINATED BY ',' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
 
 
-# Task Number 1
+# Task #1 - SQL Query
 
     Answer the question: Return the count of flights that were delayed by more than 30 minutes per carrier.
     
 
-## REST API
+# Task #2 - SQL Query
 
     python api.py &> api.log &
 
 ## Run Jmeter 
 
     jmeter -n –t jmeter-api.jmx -l testresults.jtl
+    
+# Task #3 - Scaling strategies
+
+  With the JMeter results you got and the logs of your API describe a strategy to improve the performance of this system.
 
