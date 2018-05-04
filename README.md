@@ -4,11 +4,11 @@
 
 **Database Information:**  
   
-Name: AirlineData  
-Description: On-time Flight Data for all flights in the United States from the Bureau of Transportation Statistics.  
-Time Range: Jan 01, 2018 - Feb 28, 2018  
-Number of records: 1058074  
-File: AirlineData.zip  
+    Name: AirlineData  
+    Description: On-time Flight Data for all flights in the United States from the Bureau of Transportation Statistics.  
+    Time Range: Jan 01, 2018 - Feb 28, 2018  
+    Number of records: 1058074  
+    File: AirlineData.zip  
 
 ### Create Table
 
