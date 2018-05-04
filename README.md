@@ -1,5 +1,9 @@
 # mysql-python-rest
 
+This repo README has been tested with Debian Jessie 8. You can certainly use CentOS or other distros.
+
+Debian AWS public image: debian-jessie-amd64-hvm-2016-11-13-1356-ebs - ami-0e79236b
+
 ## Database loading
 
 **Database Information:**  
